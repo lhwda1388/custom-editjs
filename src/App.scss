@@ -1,0 +1,17 @@
+.editor {
+  &.editor-content-list {
+    cursor: text;
+  }
+  .editor-content-p {
+    word-wrap: break-word;
+    -webkit-line-break: after-white-space;
+    margin: 2px -3px;
+    padding: 0 3px;
+    color: #424242;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    min-height: 28px;
+    border: solid 1px red;
+  }
+}
