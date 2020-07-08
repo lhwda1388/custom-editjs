@@ -1,10 +1,11 @@
 .editor {
-  &.editor-content-list {
+  .editor-content-list {
     cursor: text;
+    min-height: 200px;
+    border: solid 1px blue;
   }
   .editor-content-p {
     word-wrap: break-word;
-    -webkit-line-break: after-white-space;
     margin: 2px -3px;
     padding: 0 3px;
     color: #424242;
@@ -12,6 +13,16 @@
     font-weight: 400;
     line-height: 28px;
     min-height: 28px;
+    border: solid 1px #424242;
+    border-radius: 5px;
+  }
+  .editor-content-image-container {
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  .editor-content-image-container:focus {
     border: solid 1px red;
   }
 }
